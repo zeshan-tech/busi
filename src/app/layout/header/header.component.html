@@ -1,0 +1,13 @@
+<mat-toolbar class="flex justify-between z-20">
+    <span [routerLink]="['']" class="cursor-pointer">Zeshan.dev</span>
+
+    <div class="flex gap-2 items-center">
+        <a mat-button routerLink="portfolio">Portfolio</a>
+        <a mat-button routerLink="services">Services</a> <!-- Add About page -->
+        <a mat-button routerLink="about">About</a> <!-- Add About page -->
+        <a mat-button routerLink="contact">Contact</a> <!-- Add Contact page -->
+    </div>
+
+    <mat-slide-toggle color="primary" (change)="toggleTheme()">Toggle theme</mat-slide-toggle>
+
+</mat-toolbar>

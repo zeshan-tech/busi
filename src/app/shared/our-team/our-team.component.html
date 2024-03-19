@@ -1,0 +1,7 @@
+<div class="container m-auto select-none">
+    <p mat-h1 class="text-4xl text-center">Our Leaders</p>
+
+    <div class="flex flex-wrap justify-center gap-12">
+        <app-our-team-card *ngFor="let member of teamMembers" [name]="member.name" [role]="member.role" [imageUrl]="member.imageUrl"></app-our-team-card>
+    </div>
+</div>
