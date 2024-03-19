@@ -11,7 +11,32 @@ import { environment } from '../../../environments/environment';
 export class OfferModalService {
   storage = new Storage(client);
 
-  async sendPDFViaWhatsApp(pdfUrl: string) {}
+  async sendPDFViaWhatsApp(pdfUrl: string) {
+    const message = `Here's your offer PDF: ${pdfUrl}`;
+
+    const accountSid = 'AC83cc12670cf6c3dc496749bb697df219';
+    const authToken = 'cd08d56f72220dc96eb1693935879886';
+
+    // const twilioUrl =
+    //   'https://api.twilio.com/2010-04-01/Accounts/AC83cc12670cf6c3dc496749bb697df219/Messages.json';
+
+    // const body = new FormData();
+    // body.append('To', '+923064547910');
+    // body.append('From', '+14155238886');
+    // body.append('Body', message);
+    // body.append('MediaUrl', pdfUrl);
+
+    // const headers = {
+    //   Authorization:
+    //     'Basic ' +
+    //     btoa(
+    //       'AC83cc12670cf6c3dc496749bb697df219:cd08d56f72220dc96eb1693935879886'
+    //     ),
+    // };
+    // console.log(body, headers, twilioUrl);
+
+    // return this.http.post(twilioUrl, s, { headers });
+  }
 
   generatePdf(data: Record<string, string>): File {
     const doc = new jsPDF();
@@ -30,11 +55,19 @@ export class OfferModalService {
 
   async uploadPdfToCloud(file: File): Promise<string | void> {
     try {
+      // const { data, error } = await this.supabase.storage
+      //   .from('offers')
+      //   .upload(`${nanoid()}.pdf`, file);
+
       const response = await this.storage.createFile(
         environment.appwrite.bucketId,
         `${nanoid()}.pdf`,
         file
       );
+
+      // if (error) {
+      //   throw error;
+      // }
 
       const result = this.storage.getFileDownload(
         environment.appwrite.bucketId,
@@ -42,6 +75,12 @@ export class OfferModalService {
       );
 
       console.log(result);
+
+      // const {
+      //   data: { publicUrl },
+      // } = this.supabase.storage.from('offers').getPublicUrl(data.path);
+
+      console.log(response);
 
       return 'publicUrl';
     } catch (error) {
