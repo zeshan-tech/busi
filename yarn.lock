@@ -375,6 +375,13 @@
   resolved "https://registry.yarnpkg.com/@mui/core-downloads-tracker/-/core-downloads-tracker-5.15.13.tgz#f753bec8994b5defe4f62832a8a9ed14b5cb2d16"
   integrity sha512-ERsk9EWpiitSiKnmUdFJGshtFk647l4p7r+mjRWe/F1l5kT1NTTKkaeDLcK3/lsy0udXjMgcG0bNwzbYBdDdhQ==
 
+"@mui/icons-material@^5.15.13":
+  version "5.15.13"
+  resolved "https://registry.yarnpkg.com/@mui/icons-material/-/icons-material-5.15.13.tgz#8eabb372e64cb4dd5ef4f02df670543fa34bf360"
+  integrity sha512-I7CioMQKBPaKyGgcE9i8+1dgzAmox5a/0wZ0E9sIxm7PzG5KJZRRJkdK4oDT4HfYRGv61KjcHEeqH48pht1dvQ==
+  dependencies:
+    "@babel/runtime" "^7.23.9"
+
 "@mui/material@^5.15.13":
   version "5.15.13"
   resolved "https://registry.yarnpkg.com/@mui/material/-/material-5.15.13.tgz#ba4414d90075321d631a6ecfaad69b34b995cea0"
@@ -1847,6 +1854,11 @@ supports-preserve-symlinks-flag@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
+
+swiper@^11.0.7:
+  version "11.0.7"
+  resolved "https://registry.yarnpkg.com/swiper/-/swiper-11.0.7.tgz#fe51bb64546c2c21a1ec6914e7764af953443ded"
+  integrity sha512-cDfglW1B6uSmB6eB6pNmzDTNLmZtu5bWWa1vak0RU7fOI9qHjMzl7gVBvYSl34b0RU2N11HxxETJqQ5LeqI1cA==
 
 text-table@^0.2.0:
   version "0.2.0"

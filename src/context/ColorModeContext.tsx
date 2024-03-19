@@ -8,7 +8,7 @@ interface IColorModeContext {
 const ColorModeContext = createContext<IColorModeContext | undefined>(undefined);
 
 export default function ColorModeProvider({ children }: Readonly<{ children: ReactNode }>) {
-  const [mode, setMode] = useState<"light" | "dark">("light");
+  const [mode, setMode] = useState<"light" | "dark">("dark");
 
   const colorMode = useMemo(
     () => ({

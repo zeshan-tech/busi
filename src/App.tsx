@@ -1,10 +1,14 @@
+import { BrowserRouter } from "react-router-dom";
 import ColorModeProvider from "./context/ColorModeContext";
+import { Routes } from "./navigation";
 
 function App() {
   return (
-    <ColorModeProvider>
-      <></>
-    </ColorModeProvider>
+    <BrowserRouter>
+      <ColorModeProvider>
+        <Routes />
+      </ColorModeProvider>
+    </BrowserRouter>
   );
 }
 

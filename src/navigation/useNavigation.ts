@@ -1,10 +1,9 @@
 import { useNavigate as rnUseNavigate } from "react-router-dom";
-import AuthenticatedRouteParams from "./Authenticated.routes.params";
-import UnAuthenticatedRouteParams from "./UnAuthenticated.routes.params";
+import RouteParams from "./Routes.params";
 
-export type Routes = keyof AuthenticatedRouteParams | keyof UnAuthenticatedRouteParams;
+export type Routes = keyof RouteParams;
 
-type ParamsForRoute<T extends Routes> = T extends keyof AuthenticatedRouteParams ? (AuthenticatedRouteParams[T] extends undefined ? undefined : AuthenticatedRouteParams[T]) : never;
+type ParamsForRoute<T extends Routes> = T extends keyof RouteParams ? (RouteParams[T] extends undefined ? undefined : RouteParams[T]) : never;
 
 export default function useNavigation() {
   const rnNavigate = rnUseNavigate();
