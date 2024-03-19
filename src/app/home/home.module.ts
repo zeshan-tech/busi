@@ -21,6 +21,8 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { OurTeamComponent } from '../shared/our-team/our-team.component';
 import { DevelopmentApproachComponent } from './development-approach/development-approach.component';
 import { DevelopmentApproachCardComponent } from './development-approach/development-approach-card/development-approach-card.component';
+import { AlcalineWorksComponent } from './alcaline-works/alcaline-works.component';
+import { AlcalineWorkCardComponent } from './alcaline-works/alcaline-work-card/alcaline-work-card.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +36,8 @@ import { DevelopmentApproachCardComponent } from './development-approach/develop
     DevelopmentApproachComponent,
     DevelopmentApproachCardComponent,
     TachStackCardComponent,
+    AlcalineWorksComponent,
+    AlcalineWorkCardComponent,
   ],
   imports: [
     CommonModule,

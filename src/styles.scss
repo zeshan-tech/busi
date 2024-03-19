@@ -35,7 +35,8 @@ $light-theme: mat.define-light-theme(
   @include mat.all-component-themes($light-theme);
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -51,4 +52,9 @@ body {
 .mat-mdc-form-field.mat-mdc-form-field.mat-mdc-form-field.mat-mdc-form-field.mat-mdc-form-field
   .mdc-notched-outline__notch {
   border-right-style: hidden;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }

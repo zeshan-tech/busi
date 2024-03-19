@@ -1,0 +1,14 @@
+<p mat-h1 class="text-4xl text-center">Our design and development approach</p>
+
+
+<div class="container overflow-scroll m-auto hide-scrollbar" #container>
+    <div class="flex gap-12 mt-12">
+        <div class="flex items-center gap-12" *ngFor="let item of timelineItems">
+            <app-alcaline-work-card class="h-full" [title]="item.title" [description]="item.description" [serial]="item.serial"></app-alcaline-work-card>
+            <div class="arrow w-36 h-36 bg-white flex justify-center items-center">
+                <div class="arrow w-32 h-32  bg-black">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
