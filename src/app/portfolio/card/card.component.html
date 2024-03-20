@@ -1,8 +1,8 @@
 <mat-card class="p-2 text-center justify-between space-y-4 max-w-96 h-full">
     <div class="space-y-4 flex flex-col items-center">
-        <img [src]="imageUrl" alt="" class="h-64 w-full">
-        <mat-card-title>{{ title }}</mat-card-title>
-        <mat-card-subtitle>{{ subtitle }}</mat-card-subtitle>
+        <img [src]="imageUrl" alt="" class="w-full">
+        <mat-card-title class="!mb-2">{{ name }}</mat-card-title>
+        <mat-card-subtitle [innerHTML]="description"></mat-card-subtitle>
     </div>
 
     <div class="flex w-full gap-1">

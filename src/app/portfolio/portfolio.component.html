@@ -2,49 +2,21 @@
 
 <div class="container m-auto">
   <mat-tab-group>
-    <mat-tab label="Websites">
+    <mat-tab label="Mobile apps">
       <div class="flex flex-wrap gap-12 justify-center my-12">
-        <app-card
-          *ngFor="let app of mobileApps"
-          [title]="app.name"
-          [subtitle]="app.subtitle"
-          [playStoreLink]="app.playStoreLink"
-          [webLink]="app.webLink"
-          [appStoreLink]="app.appStoreLink"
-          [imageUrl]="app.imageUrl"
-        >
+        <app-card *ngFor="let app of mobileApps" [name]="app.name" [description]="app.description" [playStoreLink]="app.playStoreLink" [ratings]="app.ratings" [imageUrl]="app.imageUrl">
         </app-card>
       </div>
     </mat-tab>
 
-    <mat-tab label="Mobile apps">
+    <mat-tab label="Websites & admin">
       <div class="flex flex-wrap gap-12 justify-center my-12">
-        <app-card
-          *ngFor="let item of portfolioItems"
-          [title]="item.title"
-          [subtitle]="item.subtitle"
-          [playStoreLink]="item.playStoreLink"
-          [webLink]="item.webLink"
-          [appStoreLink]="item.appStoreLink"
-          [imageUrl]="item.imageUrl"
-        >
+        <app-card *ngFor="let app of websites" [name]="app.name" [description]="app.description" [playStoreLink]="app.playStoreLink" [ratings]="app.ratings" [imageUrl]="app.imageUrl" [webLink]="app.webLink">
         </app-card>
       </div>
     </mat-tab>
 
     <mat-tab label="Platform">
-      <div class="flex flex-wrap gap-12 justify-center my-12">
-        <app-card
-          *ngFor="let item of portfolioItems"
-          [title]="item.title"
-          [subtitle]="item.subtitle"
-          [playStoreLink]="item.playStoreLink"
-          [webLink]="item.webLink"
-          [appStoreLink]="item.appStoreLink"
-          [imageUrl]="item.imageUrl"
-        >
-        </app-card>
-      </div>
     </mat-tab>
   </mat-tab-group>
 </div>
