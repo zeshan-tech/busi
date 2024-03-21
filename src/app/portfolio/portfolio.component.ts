@@ -15,7 +15,7 @@ export class PortfolioComponent {
         'https://play.google.com/store/apps/details?id=com.gap.mobile.bananarepublic&hl=en&gl=US',
       ratings: 4.8,
       imageUrl:
-        'https://www.revu.com.ph/wp-content/uploads/2017/05/Apple-iOS-vs-Android-on-Revu-Philippines.jpg',
+        'https://res.cloudinary.com/djvfnekle/image/upload/v1711001840/tzcowf2pvare3mezuhj6.png',
     },
     {
       name: 'Text Vault - Texting App',
@@ -25,7 +25,7 @@ export class PortfolioComponent {
         'https://play.google.com/store/apps/details?id=com.appsverse.textvault',
       ratings: 3.6,
       imageUrl:
-        'https://www.revu.com.ph/wp-content/uploads/2017/05/Apple-iOS-vs-Android-on-Revu-Philippines.jpg',
+        'https://res.cloudinary.com/djvfnekle/image/upload/v1711001839/kpkztcwwrb9mcboo7s6k.png',
     },
     {
       name: 'Chair Exercises',
@@ -35,7 +35,7 @@ export class PortfolioComponent {
         'https://play.google.com/store/apps/details?id=com.samantharoobol.chair',
       ratings: 2.4,
       imageUrl:
-        'https://www.revu.com.ph/wp-content/uploads/2017/05/Apple-iOS-vs-Android-on-Revu-Philippines.jpg',
+        'https://res.cloudinary.com/djvfnekle/image/upload/v1711001845/a7266nhrdtqjqfnpbdbi.png',
     },
     {
       name: 'Servr GuestX -Guest Experience',
@@ -44,7 +44,7 @@ export class PortfolioComponent {
       playStoreLink: 'https://play.google.com/store/apps/details?id=com.servr',
       ratings: 5.0,
       imageUrl:
-        'https://www.revu.com.ph/wp-content/uploads/2017/05/Apple-iOS-vs-Android-on-Revu-Philippines.jpg',
+        'https://res.cloudinary.com/djvfnekle/image/upload/v1711001843/rva9biyoo9wrf5tul6dh.png',
     },
     {
       name: 'Croatia bank app',
@@ -53,7 +53,7 @@ export class PortfolioComponent {
       playStoreLink: 'false',
       ratings: 0.0,
       imageUrl:
-        'https://www.revu.com.ph/wp-content/uploads/2017/05/Apple-iOS-vs-Android-on-Revu-Philippines.jpg',
+        'https://res.cloudinary.com/djvfnekle/image/upload/v1711001017/ifyyzn1ywfhy2li6tm2o.png',
     },
     {
       name: 'Abhi - Your Salary Now!',
@@ -63,7 +63,7 @@ export class PortfolioComponent {
         'https://play.google.com/store/apps/details?id=com.abhifinance&hl=en&gl=US',
       ratings: 4.1,
       imageUrl:
-        'https://www.revu.com.ph/wp-content/uploads/2017/05/Apple-iOS-vs-Android-on-Revu-Philippines.jpg',
+        'https://res.cloudinary.com/djvfnekle/image/upload/v1711001840/nldxbpp2jmkqadbfkhsm.png',
     },
     // {
     //   title: 'No name (web & admin)',
@@ -122,3 +122,19 @@ export class PortfolioComponent {
     },
   ];
 }
+
+
+
+// whoishiring.io
+// remotely.jobs
+// flexjobs.com
+// remotive.com 
+// pangian.com
+// weworkremotely.com
+// workingnomads.com
+// remoteok.com
+// wellfound.com
+// justremote.co
+// thehiredai.vip
+// workchest.com
+// LinkedIn.com
