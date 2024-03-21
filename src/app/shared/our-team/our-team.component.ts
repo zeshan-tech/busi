@@ -11,14 +11,12 @@ import { OurTeamCardComponent } from './our-team-card/our-team-card.component';
 })
 export class OurTeamComponent {
   teamMembers = [
-    {name: "Zohaib Shahid", role: "Product Manager", imageUrl: "https://s.france24.com/media/display/2fad343e-b841-11ec-b46e-005056bfb2b6/w:1280/p:1x1/000_9UX7ZX.jpg" },
-    {name: "System Architect 1", role: "System Architect", imageUrl: "https://s.france24.com/media/display/2fad343e-b841-11ec-b46e-005056bfb2b6/w:1280/p:1x1/000_9UX7ZX.jpg" },
-    {name: "Zeshan shakeel", role: "Senior Software engineer", imageUrl: "https://s.france24.com/media/display/2fad343e-b841-11ec-b46e-005056bfb2b6/w:1280/p:1x1/000_9UX7ZX.jpg" },
+    {name: "Zohaib Shahid", role: "Founder", imageUrl: "https://lh3.googleusercontent.com/a/ACg8ocKrJ0B9b6Uv9jSlIxKFz6YEVTGrJH92zsO_PRZPew-A-Q=s576-c-no" },
+    {name: "Noman Ijaz", role: "Senior software engineer", imageUrl: "https://res.cloudinary.com/djvfnekle/image/upload/v1711006055/njpndvbvkt9wt46xz6c3.jpg" },
+    {name: "Zeshan shakeel", role: "Senior Software engineer", imageUrl: "https://storage.googleapis.com/pai-images/b9ea8a000966407cbdf8a8f41dc4d826.jpeg" },
+    {name: "Muhammad Daniyal", role: "Software engineer", imageUrl: "https://res.cloudinary.com/djvfnekle/image/upload/v1711008947/sd99etim4ng9j7j20s8o.jpg" },
     {name: "Hamza Ameen", role: "Software engineer", imageUrl: "https://s.france24.com/media/display/2fad343e-b841-11ec-b46e-005056bfb2b6/w:1280/p:1x1/000_9UX7ZX.jpg" },
-    {name: "Software engineer 1", role: "Software engineer", imageUrl: "https://s.france24.com/media/display/2fad343e-b841-11ec-b46e-005056bfb2b6/w:1280/p:1x1/000_9UX7ZX.jpg" },
-    {name: "Devops 1", role: "DevOps Engineer", imageUrl: "https://s.france24.com/media/display/2fad343e-b841-11ec-b46e-005056bfb2b6/w:1280/p:1x1/000_9UX7ZX.jpg" },
-    {name: "Devops 2", role: "DevOps Engineer", imageUrl: "https://s.france24.com/media/display/2fad343e-b841-11ec-b46e-005056bfb2b6/w:1280/p:1x1/000_9UX7ZX.jpg" },
-    {name: "UX&UI designer", role: "UX/UI Designer", imageUrl: "https://s.france24.com/media/display/2fad343e-b841-11ec-b46e-005056bfb2b6/w:1280/p:1x1/000_9UX7ZX.jpg" },
-    {name: "QA Engineer 1", role: "Quality Assurance (QA) Engineer", imageUrl: "https://s.france24.com/media/display/2fad343e-b841-11ec-b46e-005056bfb2b6/w:1280/p:1x1/000_9UX7ZX.jpg" },
+    {name: "Muhammad Tariq Ramzan", role: "DevOps Engineer", imageUrl: "https://res.cloudinary.com/djvfnekle/image/upload/v1711006370/o4jarcebuj2nxleruyqv.jpg" },
+    {name: "Syeda Zaira Khan", role: "UX/UI Designer", imageUrl: "https://res.cloudinary.com/djvfnekle/image/upload/v1711006190/jxbymrgpjewawa7sxjcl.jpg" },
   ]
 }
